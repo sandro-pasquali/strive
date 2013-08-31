@@ -27,10 +27,10 @@ Will read any .html files in `/source` for build directives:
     <title><%= title %></title>
 
 	<!-- build:[href] img/ -->
-	<link rel="apple-touch-icon-precomposed" href="path/to/my/theme/img/apple-touch-icon-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" href="path/to/my/theme/img/apple-touch-icon-72x72-precomposed.png" sizes="72x72">
-	<link rel="apple-touch-icon-precomposed" href="path/to/my/theme/img/apple-touch-icon-114x114-precomposed.png" sizes="114x114">
-	<link rel="apple-touch-icon-precomposed" href="path/to/my/theme/img/apple-touch-icon-144x144-precomposed.png" sizes="144x144">
+	<link rel="apple-touch-icon-precomposed" href="path/to/apple-touch-icon-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="path/to/apple-touch-icon-72x72-precomposed.png" sizes="72x72">
+	<link rel="apple-touch-icon-precomposed" href="path/to/apple-touch-icon-114x114-precomposed.png" sizes="114x114">
+	<link rel="apple-touch-icon-precomposed" href="path/to/apple-touch-icon-144x144-precomposed.png" sizes="144x144">
 	<!-- /build -->
 	
 	<!-- build:css:deploy css/style.min.css -->
@@ -254,6 +254,3 @@ Where this will be displayed in the DOM:
 		#testing
 			✓ should add 2 + 2 = 4 
 
-To just run tests, try:
-
-	$ npm test
